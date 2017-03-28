@@ -1,0 +1,13 @@
+.button, .jumbo_button, .mega_button {
+  background: blue;
+  color: white;
+  border-radius: 8px;
+  display: inline-block;
+  padding: 5px;
+  text-decoration: none; }
+
+.jumbo_button {
+  padding: 35px; }
+
+.mega_button {
+  background: blue; }

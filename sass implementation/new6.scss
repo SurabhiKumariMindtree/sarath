@@ -1,0 +1,21 @@
+$buttonBackground: blue;
+$buttonColor: white;
+$buttonPadding: 5px;
+.button {
+    background: $buttonBackground;
+    color: $buttonColor;
+    border-radius: 8px;
+    display: inline-block;
+    padding: $buttonPadding;
+    text-decoration: none;
+}
+
+.jumbo_button {
+    @extend .button;
+    padding: $buttonPadding +30;
+}
+
+.mega_button {
+    @extend .button;
+    background: $buttonBackground*1.5;
+}
